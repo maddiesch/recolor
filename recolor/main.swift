@@ -88,7 +88,7 @@ func ColorFromInput(string: String) -> NSColor {
     return NSColor(calibratedRed: redF, green: greenF, blue: blueF, alpha: 1.0)
 }
 
-let args = NSProcessInfo.processInfo().arguments
+let args = Process.arguments
 
 guard args.count >= 3 else {
     fatalError("expected to have a color and image path")

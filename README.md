@@ -4,4 +4,4 @@ Recolor an image using the CLI
 
 ### Usage
 
-`$ recolor /path/to/image #FFFFFF`
+`$ recolor #FFFFFF /path/to/image`
